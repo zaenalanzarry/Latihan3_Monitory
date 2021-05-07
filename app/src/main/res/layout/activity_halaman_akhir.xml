@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white3"
+    tools:context=".HalamanAkhir">
+
+    <TextView
+        android:id="@+id/teks1_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beres! Sekarang"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:layout_marginTop="@dimen/dimen50"
+        android:textSize="@dimen/sp25"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black3" />
+
+    <TextView
+        android:id="@+id/teks2_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen50"
+        android:layout_toRightOf="@id/teks1_halaman_akhir"
+        android:text="kamu"
+        android:layout_marginLeft="@dimen/dimen3"
+        android:textSize="@dimen/sp25"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black3" />
+
+    <TextView
+        android:id="@+id/teks3_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:layout_below="@id/teks1_halaman_akhir"
+        android:text="udah bisa ngecek"
+        android:textSize="@dimen/sp25"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black3" />
+
+    <TextView
+        android:id="@+id/teks4_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teks3_halaman_akhir"
+        android:text="penggunaan HP mu"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:textSize="@dimen/sp25"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black3" />
+
+    <TextView
+        android:id="@+id/teks5_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tiap hari buat bantu"
+        android:layout_below="@id/teks4_halaman_akhir"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:textSize="@dimen/sp25"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black3" />
+
+    <TextView
+        android:id="@+id/teks6_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teks4_halaman_akhir"
+        android:layout_toRightOf="@id/teks5_halaman_akhir"
+        android:layout_marginLeft="@dimen/dimen3"
+        android:text="kamu"
+        android:textSize="@dimen/sp25"
+        android:textColor="@color/black3"
+        android:fontFamily="@font/nunito_bold" />
+
+    <TextView
+        android:id="@+id/teks7_halaman_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ngatur waktu :)"
+        android:layout_below="@id/teks5_halaman_akhir"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:textSize="@dimen/sp25"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/black3" />
+
+    <RelativeLayout
+        android:id="@+id/layout_bawah_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen110"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/btn_oke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen110"
+            android:layout_marginRight="@dimen/dimen110"
+            android:background="@drawable/btn_mulai"
+            android:text="Oke"
+            android:textAllCaps="false"
+            android:textColor="@color/black3"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
